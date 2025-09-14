@@ -1,0 +1,7 @@
+pandas
+numpy
+tqdm
+streamlit
+tabulate
+matplotlib
+pyarrow
