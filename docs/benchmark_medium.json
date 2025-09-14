@@ -1,0 +1,60 @@
+{
+  "exact_time_sec": 0.21806693077087402,
+  "exact_rows": [
+    {
+      "city": "Bengaluru",
+      "SUM(amount)": 35890440.48
+    },
+    {
+      "city": "Chennai",
+      "SUM(amount)": 21702765.16
+    },
+    {
+      "city": "Delhi",
+      "SUM(amount)": 28786357.04
+    },
+    {
+      "city": "Hyderabad",
+      "SUM(amount)": 25285042.7
+    },
+    {
+      "city": "Kolkata",
+      "SUM(amount)": 17897079.85
+    },
+    {
+      "city": "Mumbai",
+      "SUM(amount)": 32352378.39
+    },
+    {
+      "city": "Pune",
+      "SUM(amount)": 18044629.12
+    }
+  ],
+  "runs": [
+    {
+      "rate": 0.05,
+      "time_sec": 0.16970324516296387,
+      "rel_error": 0.01624359486176784
+    },
+    {
+      "rate": 0.1,
+      "time_sec": 0.1718454360961914,
+      "rel_error": 0.009335958010930045
+    },
+    {
+      "rate": 0.2,
+      "time_sec": 0.16961145401000977,
+      "rel_error": 0.004848615922997542
+    },
+    {
+      "rate": 0.4,
+      "time_sec": 0.2653355598449707,
+      "rel_error": 0.004798677401736932
+    },
+    {
+      "rate": 0.8,
+      "time_sec": 0.31295275688171387,
+      "rel_error": 0.0018718008001529143
+    }
+  ]
+}
