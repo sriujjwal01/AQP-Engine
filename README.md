@@ -118,6 +118,15 @@ python -m aqp.benchmark   --data your_data.csv   --query "SELECT city, SUM(amoun
 
 Outputs execution time, relative errors, and results across sample rates.
 
+### Example Results
+
+**Runtime vs Sample Rate**
+![Runtime vs Sample Rate](plot_time_vs_rate.png)
+
+**Relative Error vs Sample Rate**
+![Relative Error vs Sample Rate](plot_error_vs_rate.png)
+
+---
 ---
 
 ## Trade-Offs
@@ -127,3 +136,4 @@ Outputs execution time, relative errors, and results across sample rates.
 | **exact** | Slowest (full scan) | Highest / no error | When exact results required |
 | **sample** | Faster than exact | Accuracy depends on sample size | Quick insights |
 | **stream** | Works on streaming / huge data | Approximation error depends on reservoir size | Streaming data / memory-limited settings |
+
